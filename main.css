@@ -4,16 +4,44 @@ body {
   background-size: cover;
 }
 
-header {
-
+h1 {
+  font-family: sans-serif;
+  font-style: italic;
 }
 
-section {
+h2 {
+  font-family: cursive;
+}
 
+header {
+  background-color: LightYellow;
+}
+
+section#employment{
+  background-color: LemonChiffon;
+}
+
+section#TechSkills {
+  background-color: #FAFAD2;
+}
+
+section#Education {
+  background-color: #FFEFD2;
+}
+
+section#hobby {
+  background-color: LightYellow;
 }
 
 footer {
+  background-color: #ffffff;
+  margin: 2rem;
+  border: 3px solid white;
+}
 
+footer p {
+  position: relative;
+  left: 20px;
 }
 
 ul {
