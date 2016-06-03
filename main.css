@@ -1,54 +1,95 @@
-body {
-  background-image: url("background.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+* {
+  box-sizing: border-box;
 }
 
-h1 {
-  font-family: sans-serif;
-  font-style: italic;
+body {
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+header h1 {
+  background-color: LightYellow;
+  padding: 2em;
+  margin: 0;
+}
+
+header > h1 {
+  background-color: LightYellow;
+  font-size: 4em;
+  color: #028ABC;
+  text-align: center;
+}
+
+header > p {
+  text-align: center;
+  display: inline;
+}
+
+header > h3 {
+  color: #028ABC;
+  font-weight: lighter;
+  margin: 0;
+  margin-top: 1em;
+  margin
+
 }
 
 h2 {
-  font-family: cursive;
-}
-
-header {
-  background-color: LightYellow;
+  font-size: 1.5em;
+  border-bottom: 4px solid #028ABC;
 }
 
 section#employment{
-  background-color: LemonChiffon;
+  padding: 1em;
 }
 
 section#TechSkills {
-  background-color: #FAFAD2;
+  padding: 1em;
 }
 
 section#Education {
-  background-color: #FFEFD2;
+  padding: 1em;
 }
 
 section#hobby {
-  background-color: LightYellow;
+  padding: 1em;
 }
 
-footer {
-  background-color: #ffffff;
-  margin: 2rem;
-  border: 3px solid white;
-}
-
-footer p {
-  position: relative;
-  left: 20px;
-}
-
-ul {
+ol {
   list-style: none;
 }
 
-.contact li {
+ul {
   position: relative;
-  right: 20px;
+  right: 2em;
+}
+
+ul li {
+  list-style: none;
+  background-color: LightYellow;
+  border: 0.2em dotted #0AB0EC;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+footer {
+  background-color: LightYellow;
+  margin: 1rem;
+  border: 3px solid #0AB0EC;
+}
+
+footer p {
+  display: block;
+  margin-left: 3em;
+  margin-top: 1em;
+}
+
+footer li {
+  border: none;
+}
+
+.contact li {
+  display: inline;
+  padding: 1em;
 }
