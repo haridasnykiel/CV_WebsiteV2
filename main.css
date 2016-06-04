@@ -8,34 +8,72 @@ body {
   margin: 0;
 }
 
-header h1 {
+.name {
+  padding: 11.9em;
   background-color: LightYellow;
-  padding: 2em;
-  margin: 0;
+  padding-top: 9em;
+  padding-bottom: 15em;
+  position: relative;
 }
 
-header > h1 {
+.name h1 {
   background-color: LightYellow;
-  font-size: 4em;
+  padding: 0.5em;
+  margin: 0;
+  background-color: LightYellow;
+  font-size: 3em;
   color: #028ABC;
   text-align: center;
 }
 
-header > p {
+.name h2 {
+  background-color: LightYellow;
+  padding: 1em;
+  margin: 0;
+  background-color: LightYellow;
+  font-size: 1.5em;
+  color: #028ABC;
   text-align: center;
-  display: inline;
+  border-top: 1px solid #0AB0EC;
+
 }
 
-header > h3 {
+.name img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  /*visibility: hidden;*/
+}
+
+.name > img:hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.1;
+  width: 100%;
+  height: 100%;
+}
+
+#personal {
+  padding: 0;
+}
+
+#personal p {
+  padding: 1em;
+  margin-right: 1em;
+  text-align: center;
+}
+
+#personal h3 {
   color: #028ABC;
   font-weight: lighter;
-  margin: 0;
-  margin-top: 1em;
-  margin
-
+  text-align: center;
 }
 
-h2 {
+section h2 {
   font-size: 1.5em;
   border-bottom: 4px solid #028ABC;
 }
@@ -68,7 +106,7 @@ ul {
 ul li {
   list-style: none;
   background-color: LightYellow;
-  border: 0.2em dotted #0AB0EC;
+  border: 0.2em solid #0AB0EC;
   margin: 0.5em;
   padding: 1em;
 }
